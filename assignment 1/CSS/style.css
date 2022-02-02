@@ -1,0 +1,86 @@
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+/* .pager-nav {
+margin: 16px 0;
+}
+.pager-nav span {
+display: inline-block;
+padding: 4px 8px;
+margin: 1px;
+cursor: pointer;
+font-size: 14px;
+background-color: #FFFFFF;
+border: 1px solid #e1e1e1;
+border-radius: 3px;
+box-shadow: 0 1px 1px rgba(0,0,0,.04);
+}
+.pager-nav span:hover,
+.pager-nav .pg-selected {
+background-color: #f9f9f9;
+border: 1px solid #CCCCCC;
+} */
+
+.topnav {
+  overflow: hidden;
+  background-color: #22c3d8;
+  width: auto;
+}
+
+.topnav input[type="text"] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  margin-bottom: 8px;
+  font-size: 17px;
+}
+
+#formContainer {
+  overflow: hidden;
+  background-color: #67df6d;
+  width: auto;
+  padding: 10px;
+}
+
+#addressData {
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  margin-bottom: 8px;
+  font-size: 17px;
+}
+
+#dataTable {
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  margin-bottom: 8px;
+  font-size: 17px;
+}
+
+#formContainer input[type="submit"] {
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  margin-bottom: 8px;
+  font-size: 17px;
+}
