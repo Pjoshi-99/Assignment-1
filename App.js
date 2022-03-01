@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import HomeStack from './src/components/router/homeStack';
+import HomeStack from './src/Router/Stack';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
 
 const Stack = createNativeStackNavigator();
